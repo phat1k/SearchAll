@@ -1,0 +1,15 @@
+.input_checkbox{
+    display: inline-flex;
+    align-items: center;
+    background: #F9F9F9;
+    border: 1px solid #D1D1D1;
+    box-sizing: border-box;
+    border-radius: 12px;
+    height: 42px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 16px;
+    input{
+        margin-right: 10px;
+    }
+}

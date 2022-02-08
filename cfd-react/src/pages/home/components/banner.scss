@@ -1,0 +1,27 @@
+.Banner__container{
+    background-image: url(../../../assets/img/Banner.png);
+    box-sizing: border-box;
+    padding-top: 48px;
+    padding-left: 33px;
+    width: 420px;
+    height: 280px;
+    border-radius:10px;
+    .Banner__subfocus {
+        font-weight: 600;
+        font-size: 12px;
+        color: #6A983C;
+        margin: 8px 0px;
+    }
+    .Banner__Space {
+        font-weight: 600;
+        font-size: 22px;
+        margin: 8px 0px;
+        color: #151515;
+        margin-bottom: 95px;
+    }
+    .button__container a{
+        font-weight: bold;
+        font-size: 15px;
+        color: #151515;
+    }
+}

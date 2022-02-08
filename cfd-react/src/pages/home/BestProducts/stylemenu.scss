@@ -1,0 +1,12 @@
+.container{
+    .menu{
+        font-weight: 600;
+        font-size: 18px;
+        color: #151515;
+        &.test{
+            font-size: 15px;
+            font-weight: 500;
+            color: #151515;
+        }
+    }
+}

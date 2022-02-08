@@ -1,0 +1,17 @@
+.Customers {
+    padding-top: 69px;
+    padding-left: 45px;
+    padding-right: 45px;
+    .top__carcustomers {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 41px;
+        h2 {
+            font-weight: 600;
+            font-size: 18px;
+        }
+    }
+    .carousel {
+        outline: none;
+    }
+}

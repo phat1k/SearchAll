@@ -1,0 +1,21 @@
+.product__container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-bottom: 73px;
+    .card__menu{
+        width:30%;
+    }
+    .card__product{
+        display:flex;
+        flex-wrap: wrap;
+        gap:12px;
+        width: 70%;
+        .item__product{
+            width: 32%;
+            display: flex;
+        }
+    }
+}

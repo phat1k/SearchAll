@@ -1,0 +1,10 @@
+@import './reset';
+@import './variable';
+@import './mixin';
+@import './layout';
+// @import './libs.scss';
+.App{
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+}

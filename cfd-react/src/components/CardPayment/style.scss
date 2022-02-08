@@ -1,0 +1,49 @@
+.card-payment{
+    border: 1px solid #D1D1D1;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    padding: 16px;
+    .top_pay{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 35px;
+        .input_radio{
+            width: 48%;
+        }
+        p{
+            width: 48%;
+            justify-content: flex-end;
+            display: inline-flex
+        }
+    }
+    .form_input{
+        display: flex;
+        flex-direction: column;
+    }
+    .input__up{
+        width: 638px;
+        .input__item{
+            width: 100%;
+        }
+    }
+    .input__down{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between
+    }
+    .first{
+        width: 350px;
+        .input__item{
+            width: 100%;
+        }
+    }
+    .second{
+        width: 120px;
+        .input__item{
+            width: 100%;
+        }
+    }
+    
+
+} 

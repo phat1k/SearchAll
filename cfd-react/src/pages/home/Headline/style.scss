@@ -1,0 +1,21 @@
+.headline__parent{
+    padding-top: 69px;
+    padding-right: 45px;
+    padding-left: 45px;
+    max-width: 1260px;
+    margin-bottom: 64px;
+    .title__headline{
+        padding-top: 70px;
+        padding-bottom: 37px;
+        display: flex;
+        justify-content: space-between;
+        p{
+            font-weight: 600;
+            font-size: 18px;
+        }
+    }
+    .headline{
+        display: flex;
+        gap: 31.5px;
+    }
+}

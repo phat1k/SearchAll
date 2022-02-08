@@ -1,0 +1,15 @@
+.category__container{
+    .category__left{
+        width: 25%;
+    }
+    .category__right{
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        .item__product{
+            width: 32%;
+            display: flex;
+        }
+    }
+}

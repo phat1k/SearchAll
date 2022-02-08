@@ -1,0 +1,22 @@
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 45px 16px ;
+    margin-bottom: 56px;
+    border-bottom:1px solid #f1f1f1;
+}
+.header__left,.header__right{
+    display: flex;
+}
+.header__left p{
+    margin-right: 33px;
+}
+.header__right p{
+    margin-left: 38px;
+}
+.header__left p,
+.header__right p{
+    font-family: Open Sans;
+    font-size: 12px;
+    line-height: 16px;
+}
