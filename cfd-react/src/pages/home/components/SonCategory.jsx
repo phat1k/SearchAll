@@ -8,13 +8,9 @@ import { useSelector } from "react-redux";
 import PriceRange from '../../../components/price'
 const SonCategory = ({ menu = [], isLink }) => {
   // console.log(`menu`, menu);
-  // const [url, setUrl] = useState({});
-  // const {res} = useSelector(store => store.userReducer)
-  // const {id} = res
 
   const [url, setUrl] = useState({})
   const params = useLocation();
-
   // useEffect(() => {
   //   const a = convertQueryToObject();
   //   setUrl(a);
@@ -27,22 +23,14 @@ const SonCategory = ({ menu = [], isLink }) => {
       <div className="listlink">
         {menu.map((tagItem, i) =>
         (
-          // <Link
-          //     to={`/?${reverse({
-          //       ...url,
-          //       categories: tagItem.id,
-          //     })}`}
-          //   >
-          //     <h2 key={i}>{tagItem.title}</h2>
-          //   </Link>
-         <Link
-          to={`/?${reverse({
-            ...url,
-            categories: tagItem.id,
-          })}`}
-         >
-            <h2 key={i}>{tagItem.title}</h2>
-         </Link>
+          <Link
+              to={`/?${reverse({
+                ...url,
+                categories: tagItem.id,
+              })}`}
+            >
+              <h2 key={i}>{tagItem.title}</h2>
+            </Link>
             // <h2 key={i}>{tagItem.title}</h2>
           )
         )}

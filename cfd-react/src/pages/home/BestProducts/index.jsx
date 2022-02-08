@@ -50,10 +50,6 @@ const ProductMenu = () => {
   // const[product ,setProducts] = useState([])
   useEffect(() => {
     (async () => {
-      // const categories = localStorage.getItem("categories")
-      // const page = localStorage.getItem("page")
-      // const search = localStorage.getItem("search")
-
       const res = await productServices.list(params.search);
       // setProducts(res.data)
       dispatch({
@@ -81,12 +77,6 @@ const ProductMenu = () => {
   };
 
   const [url, setUrl] = useState({});
-
-  
-  // const changePage = () => {
-  //   const a = convertQueryToObject();
-   
-  // }
   
   return (
     <div className="product__container">

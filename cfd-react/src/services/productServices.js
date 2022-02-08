@@ -15,15 +15,11 @@ import { reverse } from '../until'
 const productServices = {
 
     list(data) {
-        // const {filters} = useSelector(store => store.card)
-        // const paramsString = queryString.stringify(filters)
-
+     
         // return fetch(`${API}/product?name=${search ? search : ""}`).then(res => res.json());
        
 
         // search = "name=&limit=50&catagories=1198";
-
-        
 
         // const params = toObject(search);
 

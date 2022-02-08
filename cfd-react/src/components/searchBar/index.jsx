@@ -60,30 +60,12 @@ const SearchBar = () => {
     }
     console.log("resssssss", res);
   }
-  // const submitSearch = async (e) => {
-  //   // localStorage.setItem("search", search);
-  //   // const a = convertQueryToObject();
-  //   // const queryString = new URLSearchParams(a).toString();
-  //   // const str = reverse(a);
-  //   const res = await productServices.list(search);
-  //   if (res) {
-  //     dispatch({
-  //       type: "GET_PRODUCT",
-  //       payload: res.data,
-  //     });
-  //   }
-  //   console.log("aaaaaaaaa", a);
-  //   console.log("search", search);
-  // };
 
   const params = useLocation();
-
   // useEffect(() => {
   //   submitSearch();
   // }, [params.search]);
   // console.log(`withRouter`, params);
-  
-  
 
   return (
     <div className="searchbar__container">
@@ -102,22 +84,18 @@ const SearchBar = () => {
           </div>
         </div>
         <div className="search__right">
-          {/* <input type="text"  name="search" placeholder="Search Products, categories ..." value={formSearch.username} onChange={inputSearch}></input> */}
           <input
             type="text"
             name="search"
             placeholder="Search Products, categories ..."
             value={search}
             onChange={(e)=> setSearch(e.currentTarget.value)}
-            // onChange={(e) => setSearch(e.currentTarget.value)}
           ></input>
         </div>
-        {/* <Link to={`http://cfd-reactjs.herokuapp.com/product?'${paramsString}`} className="item"> */}
         <div className="" onClick={submitSearch}>
           <Link to={`/?name=${search}`}>Search</Link>
         </div>
       </div>
-      {/* <button onClick={getParameterByName}>ddd</button> */}
       <div className="icon">
         {statusLogin && (
           <button className="btn__lougout" onClick={logoutAcout}>
